@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const Auth = () => {
-  const [isLogin, setIsLogin] = useState(false);
+  const [isLogin, setIsLogin] = useState(true);
   const [loading, setLoading] = useState(false);
 
   const [form, setForm] = useState({
